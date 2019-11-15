@@ -1,0 +1,34 @@
+{
+  "perfiles": [
+    {
+      "id": 1,
+      "nombre": "Mónica",
+      "usuario": "monica",
+      "resumen": "Colega de trabajo"
+    },
+    {
+      "id": 2,
+      "nombre": "Javier Lete",
+      "usuario": "javierlete",
+      "resumen": "Profesor y programador, etc, etc..."
+    }
+  ],
+  "twts": [
+    {
+      "id": 1,
+      "texto": "Primer twtter"
+    },
+    {
+      "id": 2,
+      "texto": "Segundo twtter"
+    },
+    {
+      "texto": "Tercer twt",
+      "id": 3
+    },
+    {
+      "texto": "addfasdf",
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+<mat-card>
+    <mat-card-content>
+        <form>
+            <mat-form-field>
+                <input type="text" placeholder="Buscador" matInput [formControl]="myControl"
+                    [matAutocomplete]="auto">
+                <mat-autocomplete #auto="matAutocomplete">
+                    <mat-option *ngFor="let option of options" [value]="option">
+                        {{option}}
+                    </mat-option>
+                </mat-autocomplete>
+            </mat-form-field>
+            <button mat-flat-button color="primary">Buscar</button>
+        </form>
+    </mat-card-content>
+</mat-card>

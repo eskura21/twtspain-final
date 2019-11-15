@@ -1,0 +1,14 @@
+<mat-card *ngIf="perfil">
+    <mat-card-header>
+        <mat-card-title>{{perfil.nombre}}</mat-card-title>
+        <mat-card-subtitle>{{perfil.usuario}}</mat-card-subtitle>
+    </mat-card-header>
+    <img style="width: 200px" mat-card-image 
+        src="http://lorempixel.com/200/200/people/{{perfil.id}}"
+        alt="{{perfil.usuario}}">
+    <mat-card-content>
+        <p>
+            {{perfil.resumen}}
+        </p>
+    </mat-card-content>
+</mat-card>

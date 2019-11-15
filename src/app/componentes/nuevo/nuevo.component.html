@@ -1,0 +1,10 @@
+<mat-card>
+    <mat-card-content>
+        <form>
+            <mat-form-field>
+                <textarea type="text" placeholder="Twt" matInput #texto></textarea>
+            </mat-form-field>
+            <button (click)="onEnviar(texto.value)" mat-flat-button color="primary">Enviar</button>
+        </form>
+    </mat-card-content>
+</mat-card>
